@@ -36,7 +36,7 @@ class Splash {
 
     async startAnimation() {
         let defaultSplashes = [
-            { "message": "Miguelki Network", "author": "Miguelki" }
+            { "message": "Neov Launcher", "author": "Miguelki" }
         ];
 
         let splashes = await this.fetchSplashes();

@@ -1,25 +1,25 @@
 {
-    "name": "MiguelkiNetwork-MCLauncher",
-    "productname": "Miguelki Network MC Launcher",
-    "version": "3.4.6",
+    "name": "NeovLauncher",
+    "productname": "Neov Launcher",
+    "version": "1.0.0",
     "sub_version": "",
-    "changelog": "Arreglo de bugs.",
-    "description": "Launcher de minecraft para los servidores de Miguelki Network",
+    "changelog": "Primera versión del launcher",
+    "description": "Launcher de minecraft para los servidores de Neov Studio",
     "main": "src/app.js",
     "author": {
         "name": "Miguelki",
         "email": "admin@miguelkinetwork.fun",
         "url": "https://github.com/miguelkix30"
     },
-    "url": "http://mclauncherapi.miguelkiwebservices.com/",
+    "url": "http://neov.miguelkiwebservices.com/",
     "azuriom_url": "https://minecraft.miguelkinetwork.info/",
-    "discord_url": "https://dsc.gg/miguelkinetwork",
-    "discord_client_id": "1307003977442787451",
+    "discord_url": "https://discord.gg/ZxaFrnbbVP",
+    "discord_client_id": "1425157457214312538",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://github.com/miguelkix30/MiguelkiNetworkMCLauncher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://github.com/NeovStudioDev/NeovLauncher/master/src/assets/images/icon.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -56,6 +56,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/miguelkix30/MiguelkiNetworkMCLauncher.git"
+        "url": "git+https://github.com/NeovStudioDev/NeovLauncher.git"
     }
 }
